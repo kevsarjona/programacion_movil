@@ -130,10 +130,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txt_login_fb"
-        android:textSize="@dimen/small_txt"
+        android:text="@string/txt_login_with_fb"
         android:textColor="@color/secondary_netflix"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_label_new_net"
+        android:drawableStart="@drawable/ic_facebook_icon"
+
+        android:drawablePadding="@dimen/margin_medium"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@id/new_netflix"
+        android:textSize="@dimen/small_txt"
+
 
         />
 
@@ -142,11 +149,11 @@
         android:text="@string/txt_new_netflix"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/margin_default"
-        android:textColor="@color/white"
+        android:textColor="@color/secondary_netflix"
         android:textSize="@dimen/small_txt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="@dimen/margin_label_new_net"
         android:layout_marginStart="@dimen/margin_default"/>
 
     <TextView
@@ -154,14 +161,24 @@
         android:text="@string/txt_sign_up_now"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_default"
         android:textColor="@color/white"
         android:textSize="@dimen/small_txt"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@id/new_netflix"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintBottom_toBottomOf="@id/new_netflix"
+        app:layout_constraintStart_toEndOf="@id/new_netflix"
+        app:layout_constraintTop_toTopOf="@id/new_netflix"
+        android:layout_marginStart="@dimen/margin_box"
+        />
 
+    <ImageView
+        android:layout_width="@dimen/fb_icon_size"
+        android:layout_height="@dimen/fb_icon_size"
+        android:src="@drawable/ic_facebook_icon"
+        android:layout_marginStart="@dimen/margin_default"
+        android:layout_marginBottom="@dimen/margin_label_new_net"
+        app:layout_constraintBottom_toTopOf="@id/new_netflix"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -28,4 +28,12 @@
         android:layout_gravity="center"
         android:text="@string/txt_login_fb"/>
 
+    <Button
+        android:id="@+id/btn_login_netflix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="@string/txt_login_netflix"/>
+
 </LinearLayout>

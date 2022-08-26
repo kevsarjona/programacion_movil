@@ -12,10 +12,12 @@
     <string name="txt_new_netflix">New to Netflix?</string>
     <string name="txt_sign_up_now">Sign Up Now</string>
 
+    <string name="txt_login_netflix">Login Netflix</string>
+
     <string name="txt_title_practicas">Practicas</string>
     <string name="txt_title_sigin_netflix">Sign In</string>
-
-    <string name="txt_login_fb">Login with Facebook</string>
+    <string name="txt_login_fb">Login Facebook</string>
+    <string name="txt_login_with_fb">Login with Facebook</string>
     <string name="btn_sigin_netflix">Sign In</string>
 
 
