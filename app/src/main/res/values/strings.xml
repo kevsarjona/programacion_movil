@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Anahuac</string>
+    <string name="hint_email_or_phone_number">Email or phone number</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Log In</string>
+    <string name="txt_help">Need Help?</string>
+    <string name="txt_sign_up">Sign Up For Facebook</string>
+
+    <string name="txt_remember">Remember me</string>
+    <string name="txt_help_netflix">Need help?</string>
+
+    <string name="txt_new_netflix">New to Netflix?</string>
+    <string name="txt_sign_up_now">Sign Up Now</string>
+
+    <string name="txt_title_practicas">Practicas</string>
+    <string name="txt_title_sigin_netflix">Sign In</string>
+
+    <string name="txt_login_fb">Login with Facebook</string>
+    <string name="btn_sigin_netflix">Sign In</string>
+
+
+
+</resources>

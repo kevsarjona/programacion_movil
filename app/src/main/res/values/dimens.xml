@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_box">20dp</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="line_height">1dp</dimen>
+    <dimen name="height_logo">50dp</dimen>
+
+    <dimen name="font_size">16sp</dimen>
+    <dimen name="small_txt">12sp</dimen>
+
+    <dimen name="netflix_logo_height">80dp</dimen>
+
+    <dimen name="signin_netflix">30dp</dimen>
+
+
+
+
+</resources>
