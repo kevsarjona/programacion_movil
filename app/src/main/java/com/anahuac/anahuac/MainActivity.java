@@ -11,8 +11,10 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity  {
 
-    private Button btn_login_fb;
-    private Button btn_login_net;
+    private Button btnLoginFacebook;
+    private Button btnLoginNetflix;
+    private Button btnListCampus;
+
 
 
     @Override
@@ -20,10 +22,11 @@ public class MainActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn_login_fb = findViewById(R.id.btn_login_fb);
-        btn_login_net = findViewById(R.id.btn_login_netflix);
+        btnLoginFacebook = findViewById(R.id.btn_login_fb);
+        btnLoginNetflix = findViewById(R.id.btn_login_net);
+        btnListCampus = findViewById(R.id.btn_login_campus);
 
-        btn_login_fb.setOnClickListener(new View.OnClickListener() {
+        btnLoginFacebook.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view){
@@ -33,12 +36,23 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
-        btn_login_net.setOnClickListener(new View.OnClickListener() {
+
+        btnLoginNetflix.setOnClickListener(new View.OnClickListener() {
+
+                @Override
+                public void onClick(View view){
+                    Toast.makeText( MainActivity.this, "Boton pulsado", Toast.LENGTH_LONG).show();
+                    Intent intent = new Intent(MainActivity.this, LoginNetflixActivity.class);
+                    startActivity(intent);
+                }
+        });
+
+        btnListCampus.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view){
                 Toast.makeText( MainActivity.this, "Boton pulsado", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(MainActivity.this, LoginNetflixActivity.class);
+                Intent intent = new Intent(MainActivity.this, ListCampusActivity.class);
                 startActivity(intent);
             }
         });

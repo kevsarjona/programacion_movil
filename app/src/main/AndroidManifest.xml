@@ -13,11 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Anahuac"
         tools:targetApi="31">
-
+        <activity
+            android:name=".RecyclerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListCampusActivity"
+            android:exported="false" />
         <activity
             android:name=".LoginNetflixActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -27,7 +31,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".LoginActivity" />
     </application>
 
