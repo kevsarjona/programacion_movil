@@ -11,6 +11,8 @@
 
     <dimen name="small_txt">12sp</dimen>
 
+    <dimen name="imagesize">234dp</dimen>
+
     <dimen name="netflix_logo_height">80dp</dimen>
     <dimen name="campus_image_height">200dp</dimen>
 

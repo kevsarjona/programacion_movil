@@ -17,6 +17,8 @@
     <string name="txt_title_practicas">Practicas</string>
     <string name="txt_title_sigin_netflix">Sign In</string>
 
+    <string name="ver_mas">VER MAS</string>
+
     <string name="txt_login_fb">Login with Facebook</string>
     <string name="txt_login_net">Login with Netflix</string>
     <string name="txt_login_campus">Login Campus</string>
