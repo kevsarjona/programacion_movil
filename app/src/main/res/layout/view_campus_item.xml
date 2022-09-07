@@ -9,10 +9,12 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_medium"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
         app:cardCornerRadius="@dimen/corner_radius"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/gl_btn">
 
 
 
@@ -21,12 +23,12 @@
                 android:src="@drawable/ic_campus_cancun"
                 android:scaleType="centerCrop"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/campus_image_height"/>
+                android:layout_height="match_parent"/>
 
             <View
                 android:layout_width="match_parent"
                 android:background="@color/black_50"
-                android:layout_height="@dimen/campus_image_height"
+                android:layout_height="match_parent"
                 />
 
             <TextView
@@ -47,17 +49,24 @@
 
 
 
-            <androidx.constraintlayout.widget.Guideline
-                android:id="@+id/gl_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                app:layout_constraintGuide_begin="190dp" />
+
+
 
 
     </androidx.cardview.widget.CardView>
 
+
+    <View
+        android:id="@+id/gl_btn"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintTop_toTopOf="@id/btn_view_more"
+        app:layout_constraintBottom_toBottomOf="@id/btn_view_more"
+
+        />
+
     <Button
+        android:id="@+id/btn_view_more"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/orange"
@@ -69,6 +78,9 @@
         app:layout_constraintEnd_toEndOf="@id/iv_universidad"
 
         />
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

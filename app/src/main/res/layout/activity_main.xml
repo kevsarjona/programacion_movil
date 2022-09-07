@@ -45,4 +45,12 @@
         android:layout_gravity="center"
         android:text="@string/txt_login_campus"/>
 
+    <Button
+        android:id="@+id/btn_alerta"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btn_alert"/>
+
 </LinearLayout>

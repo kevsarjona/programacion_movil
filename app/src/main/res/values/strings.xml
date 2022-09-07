@@ -3,6 +3,11 @@
     <string name="hint_email_or_phone_number">Email or phone number</string>
     <string name="hint_password">Password</string>
     <string name="btn_login">Log In</string>
+    <string name="btn_alert">Alerta</string>
+    <string name="btn_alerta_with_button">Alerta con botones</string>
+
+    <string name="btn_alerta_with_options">Alerta con opciones</string>
+
     <string name="txt_help">Need Help?</string>
     <string name="txt_sign_up">Sign Up For Facebook</string>
 
