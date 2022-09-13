@@ -9,6 +9,9 @@
     <string name="btn_alerta_with_options">Alerta con opciones</string>
 
     <string name="txt_help">Need Help?</string>
+
+    <string name="txt_loginhome">LOGIN</string>
+
     <string name="txt_sign_up">Sign Up For Facebook</string>
 
     <string name="txt_remember">Remember me</string>

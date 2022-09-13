@@ -12,7 +12,10 @@
     <color name="secondary_fb">#334978</color>
     <color name="orange">#FF5722</color>
 
-    <color name="black_50">#80000000</color>
+    <color name="electricblue">#1095FF</color>
+
+    <color name="blue">#3F51B5</color>
+    <color name="blue2">#3855F8</color>
 
     <color name="primary_netflix">#C60011</color>
     <color name="secondary_netflix">#7C7C7C</color>
