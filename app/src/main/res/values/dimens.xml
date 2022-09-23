@@ -7,6 +7,9 @@
     <dimen name="margin_box">40dp</dimen>
 
     <dimen name="corner_radius">8dp</dimen>
+    <dimen name="corner_radius2">20dp</dimen>
+
+
     <dimen name="line_height">1dp</dimen>
     <dimen name="height_logo">50dp</dimen>
 
